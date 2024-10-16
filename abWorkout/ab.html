@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ab Workout</title>
+    <link rel="stylesheet" href="ab.css">
+    <link rel="icon" href="data:,">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container-countdown">
+        <p id="countdown">What intensity of exercise would you like?</p>
+        <select id="time">
+           <option disabled >Select an option</option>
+            <option value="5">Low</option>
+            <option value="10">Moderate</option>
+            <option value="20">High</option>
+        </select>
+        <br>
+        <button id="myButton">START</button>
+    </div>
+    
+    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="myVideo">
+        <source src="https://cdn.coverr.co/videos/coverr-doing-crunches-in-the-gym-2117/1080p.mp4" type="video/mp4">
+    </video>
+    
+    <script src="ab.js"></script>
+</body>
+</html>

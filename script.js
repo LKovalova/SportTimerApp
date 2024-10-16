@@ -1,0 +1,2 @@
+gsap.fromTo('#btn', { opacity: 0, scale: 0, rotation: 720 }, { duration: 1, delay: 1, opacity: 1, scale: 1, rotation: 0, stagger:0.5 })
+gsap.from("#header", {y:50, duration:2, opacity:0, ease: "elastic"}) 

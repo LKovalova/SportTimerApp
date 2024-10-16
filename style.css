@@ -1,0 +1,58 @@
+#header{
+    display: flex;
+    justify-content: center;
+    color:#F1F7B5;
+    border-radius: 5px;
+}
+
+h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 3px #000000;
+}
+
+#btn-container{
+    display: flex;
+    justify-content: space-around
+}
+
+#btn{
+    margin-top: 20px;
+    background: #A8D1D1;
+    padding: 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+#btn:hover {
+    background: linear-gradient(to right, #f2f7b5cb, #A8D1D1);
+}
+
+a{
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    color:#9EA1D4;
+    text-shadow: 2px 2px #000000;
+}
+
+#myVideo{
+    position: fixed;
+    right: 0;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -10; 
+}
+
+
+@media all and (max-width:500px){
+   a{
+    font-size: 20px;
+   }
+   #btn{
+    padding: 10px;
+   }
+}

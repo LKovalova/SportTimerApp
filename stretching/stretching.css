@@ -1,0 +1,57 @@
+#container-countdown{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#time{
+    font-family: 'Fjalla One', sans-serif;
+    padding: 10px;
+}
+
+#countdown{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    margin-top: 40px;
+    color:#F1F7B5;
+    text-shadow: 2px 3px #000000;
+    background-color: #9ea1d4cc;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+#myButton, #time{
+    font-family: 'Fjalla One', sans-serif;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+#myButton{
+    background-color: #A8D1D1;
+    font-weight: bold;
+    width: 10%;
+}
+
+#myButton:hover {
+    background: linear-gradient(to right, #f2f7b5cb, #A8D1D1);
+}
+
+#myVideo{
+    position: fixed;
+    right: 0;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -10; 
+}
+
+@media all and (max-width:500px){
+    #countdown{
+        font-size: 20px;
+    }
+    #myButton, #time{
+        padding: 5px;
+    }
+}
